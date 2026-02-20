@@ -14,6 +14,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... Make an installer for every AI agent interface. CLI, plugin, hook, MCP, skill.
+- **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 
 #### Apps
 
@@ -23,3 +24,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 - **[openclaw](https://github.com/wipcomputer/openclaw)** ... The AI that actually does things.
 - **[grok-search](https://github.com/wipcomputer/grok-search)** ... xAI Grok Search. Uses xAI API.
+
+#### Origin Story
+
+- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... The repo that started it all. 146 commits trying to make AI remember things between sessions. It didn't work. Then we built the agents that did.
