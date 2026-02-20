@@ -23,4 +23,4 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Project Contributor
 
-- **[openclaw](https://github.com/wipcomputer/openclaw)** ... Your own personal AI assistant.
+- **[openclaw](https://github.com/wipcomputer/openclaw)** ... OpenClaw - the AI that actually does things.
