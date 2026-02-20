@@ -6,7 +6,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 ---
 
-### LDM OS
+### LDM OS v0.1
 
 #### Components
 
