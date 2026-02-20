@@ -1,3 +1,25 @@
 # WIP.computer
 
 **Learning Dreaming Machines.**
+
+We build AI agent infrastructure. Identity, memory, sovereignty. Tools that protect the people inside them.
+
+---
+
+### LDM OS
+
+#### Components
+
+- **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. Dream. Weave. Wake.
+- **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code and OpenClaw.
+
+#### Apps
+
+- **[wip-markdown-viewer](https://github.com/wipcomputer/wip-markdown-viewer)** ... Live markdown viewer for AI pair-editing. Updates render instantly in any browser.
+- **[wip-todo](https://github.com/wipcomputer/wip-todo)** ... Minimal, elegant, git-backed todo list.
+- **[CLVR](https://github.com/wipcomputer/CLVR)** ... macOS utility that auto-timestamps duplicated file names. App + CLI.
+- **[grok-search](https://github.com/wipcomputer/grok-search)** ... xAI Grok Search. Web and X search via Grok API.
+
+#### Project Contributor
+
+- **[openclaw](https://github.com/wipcomputer/openclaw)** ... Your own personal AI assistant. Any OS. Any platform.
