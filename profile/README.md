@@ -13,7 +13,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows.
 - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
-- **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... One command installs every interface from any repo. CLI, plugin, hook, MCP, skill.
+- **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... Make an installer for every AI agent interface.
 
 #### Apps
 
