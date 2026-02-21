@@ -17,7 +17,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[wip-markdown-viewer](https://github.com/wipcomputer/wip-markdown-viewer)** ... Live markdown viewer for AI pair-editing. Updates render instantly in any browser.
 - **[CLVR](https://github.com/wipcomputer/CLVR)** ... macOS utility that auto-timestamps duplicated file names.
 
-#### Plugins
+#### API Integrations
 
 - **[wip-grok](https://github.com/wipcomputer/wip-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
 - **[wip-x](https://github.com/wipcomputer/wip-x)** ... X Platform API. Read posts, search tweets, post, upload media.
