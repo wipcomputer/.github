@@ -34,4 +34,4 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Sunsetted
 
-- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... Second try at solving AI context and memory.
+- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... Second try at solving AI context, memory (recall), and skills.
