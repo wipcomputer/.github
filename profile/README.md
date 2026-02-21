@@ -6,9 +6,6 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 ---
 
-- **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. Teaches your AI to build repos with every interface: CLI, Module, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
-- **[wip-release](https://github.com/wipcomputer/wip-release)** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
-
 ### LDM OS v0.1
 
 #### Components
@@ -17,6 +14,8 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Utilities
 
+- **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. Teaches your AI to build repos with every interface: CLI, Module, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
+- **[wip-release](https://github.com/wipcomputer/wip-release)** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
 - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
