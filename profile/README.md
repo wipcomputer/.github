@@ -17,8 +17,6 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Identity
 
-- **private-mode** ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
-- **root-key** ... 1Password-gated privileged operations. The agent proves authority before acting.
 - **LDM Mirror Test** ... Identity preservation test across model swaps. Does the agent survive a substrate change?
 - **weekly-tuning** ... Repeatable calibration process. Catch drift, tune performance, evolve capabilities.
 
@@ -29,6 +27,8 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-license-hook** ... License rug-pull detection. Flags suspicious license changes in dependencies.
+- **private-mode** ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
+- **root-key** ... 1Password-gated privileged operations. The agent proves authority before acting.
 
 #### Apps
 
