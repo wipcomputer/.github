@@ -34,4 +34,4 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Sunsetted
 
-- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... Second try at solving AI memory. 146 commits. It proved the problem was real. Everything above is what came next.
+- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... Second try at solving AI memory.
