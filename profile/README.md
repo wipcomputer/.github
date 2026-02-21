@@ -32,6 +32,6 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[openclaw](https://github.com/wipcomputer/openclaw)** ... The AI that actually does things.
 - **[grok-search](https://github.com/wipcomputer/grok-search)** ... xAI Grok Search. Uses xAI API.
 
-#### Origin Story
+#### Sunset
 
-- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... The repo that started it all. 146 commits trying to make AI remember things between sessions. It didn't work. Then we built the agents that did.
+- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... Where it all started. 146 commits trying to solve AI memory by hand. It proved the problem was real. Everything above is what came next.
