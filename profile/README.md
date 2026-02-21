@@ -17,10 +17,13 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **[wip-markdown-viewer](https://github.com/wipcomputer/wip-markdown-viewer)** ... Live markdown viewer for AI pair-editing. Updates render instantly in any browser.
 - **[CLVR](https://github.com/wipcomputer/CLVR)** ... macOS utility that auto-timestamps duplicated file names.
 
-#### Utilities
+#### Plugins
 
 - **[wip-grok](https://github.com/wipcomputer/wip-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
 - **[wip-x](https://github.com/wipcomputer/wip-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+
+#### Utilities
+
 - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
