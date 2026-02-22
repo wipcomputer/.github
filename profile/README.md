@@ -43,8 +43,8 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### APIs
 
-- **[wip-grok](https://github.com/wipcomputer/wip-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
-- **[wip-x](https://github.com/wipcomputer/wip-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+- **[wip-xai-grok](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
+- **[wip-xai-x](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
 
 #### Sunsetted Software
 
