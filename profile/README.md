@@ -20,6 +20,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 #### Components (Project Contributor)
 
 - **[openclaw](https://github.com/wipcomputer/openclaw)** ... Open-source agent runtime. The existence proof for LDM OS.
+- **[xdevplatform](https://github.com/xdevplatform)** ... X Developer Platform. Official X API tools including [xurl](https://github.com/xdevplatform/xurl) (OAuth-enabled CLI for the X API) and [xdk](https://github.com/xdevplatform/xdk) (TypeScript SDK).
 
 #### Identity
 
