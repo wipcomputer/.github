@@ -4,6 +4,8 @@
 
 We build AI agent infrastructure. Identity, memory, sovereignty. Tools that protect the people inside them.
 
+**[wipcomputer.github.io/wip-homepage](https://wipcomputer.github.io/wip-homepage/)**
+
 ---
 
 ### Learning Dreaming Machines Operating System (LDM OS)
