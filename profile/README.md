@@ -35,6 +35,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
   - **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
   - **deploy-public** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
   - **Dev Guide** ... Best practices for AI-assisted development teams.
+  - **LDM Dev Tools.app** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access. One app, one permission grant.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
