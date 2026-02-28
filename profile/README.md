@@ -12,9 +12,8 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Components
 
-- **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
-- **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. Teaches your AI to build repos with every interface: CLI, Module, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
 - **[memory-crystal](https://github.com/wipcomputer/memory-crystal)** ... Collective AI memory. Sovereign. Local-first. Searchable. Encrypted worldwide sync.
+- **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
 - **wip-bridge** (closed beta) ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
 
 #### Components (Project Contributor)
@@ -24,16 +23,20 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Identity
 
-- **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
 - **wip-mirror-test** (closed beta) ... Identity preservation test across model swaps. Is the agent the same after the swap?
 - **wip-weekly-tuning** (closed beta) ... Repeatable calibration process. Catch drift, tune performance, evolve capabilities.
 
 #### Utilities
 
-- **[wip-release](https://github.com/wipcomputer/wip-release)** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
+- **[wip-dev-tools](https://github.com/wipcomputer/wip-dev-tools)** ... Dev toolkit for AI-assisted development. Want your AI to dev? Here's the full system.
+  - **wip-release** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
+  - **wip-license-hook** ... License change detection. Flags suspicious license changes in dependencies.
+  - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
+  - **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
+  - **deploy-public** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
+  - **Dev Guide** ... Best practices for AI-assisted development teams.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
-- **wip-license-hook** (closed beta) ... License rug-pull detection. Flags suspicious license changes in dependencies.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
 - **wip-root-key** (closed beta) ... 1Password-gated privileged operations. The agent proves authority before acting.
 
