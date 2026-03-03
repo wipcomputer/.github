@@ -14,7 +14,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 - **[memory-crystal](https://github.com/wipcomputer/memory-crystal)** ... Collective AI memory. Sovereign. Local-first. Searchable. Encrypted worldwide sync.
 - **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
-- **[wip-bridge](https://github.com/wipcomputer/wip-bridge)** (closed beta) ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
+- **[wip-bridge](https://github.com/wipcomputer/wip-bridge)** ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
 
 #### Components (Project Contributor)
 
