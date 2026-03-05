@@ -22,4 +22,5 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 #### Project Contributor
 
 - **[openclaw](https://github.com/wipcomputer/openclaw)** ... The AI that actually does things.
+- **[imsg](https://github.com/steipete/imsg)** ... iMessage CLI for macOS. Read, send, and watch messages from the terminal.
 - **[grok-search](https://github.com/wipcomputer/grok-search)** ... xAI Grok Search. Uses xAI API.
