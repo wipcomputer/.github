@@ -38,6 +38,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
   - **deploy-public** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
   - **Dev Guide** ... Best practices for AI-assisted development teams.
   - **LDM Dev Tools.app** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access. One app, one permission grant.
+  - **[wip-repos](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-repos)** ... Repo manifest reconciler. Single source of truth for repo organization. Like prettier for folder structure.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
