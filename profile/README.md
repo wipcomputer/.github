@@ -14,7 +14,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 - **[memory-crystal](https://github.com/wipcomputer/memory-crystal)** ... Collective AI memory. Sovereign. Local-first. Searchable. Encrypted worldwide sync.
 - **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
-- **wip-bridge** (closed beta) ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
+- **[wip-bridge](https://github.com/wipcomputer/wip-bridge)** ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
 
 #### Components (Project Contributor)
 
@@ -28,17 +28,18 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Utilities
 
-- **[wip-dev-tools](https://github.com/wipcomputer/wip-dev-tools)** ... Dev toolkit for AI-assisted development. Want your AI to dev? Here's the full system.
-  - **[wip-universal-installer](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-universal-installer)** ... The Universal Interface specification for agent-native software. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
-  - **[Dev Guide](https://github.com/wipcomputer/wip-dev-tools/blob/main/DEV-GUIDE-GENERAL-PUBLIC.md)** ... Best practices for AI-assisted development teams.
-  - **[LDM Dev Tools.app](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/ldm-jobs)** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access. One app, one permission grant.
-  - **[wip-release](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-release)** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
-  - **[wip-license-hook](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-license-hook)** ... License change detection. Flags suspicious license changes in dependencies.
-  - **[wip-repo-permissions-hook](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-repo-permissions-hook)** ... Repo visibility guard. Blocks repos from going public without a `-private` counterpart.
-  - **[post-merge-rename](https://github.com/wipcomputer/wip-dev-tools/blob/main/scripts/post-merge-rename.sh)** ... Post-merge branch renaming. Appends `--merged-YYYY-MM-DD` to preserve history.
-  - **[wip-file-guard](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
-  - **[deploy-public](https://github.com/wipcomputer/wip-dev-tools/blob/main/scripts/deploy-public.sh)** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
-  - **[wip-repos](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-repos)** ... Repo manifest reconciler. Single source of truth for repo organization. Like prettier for folder structure.
+- **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Release pipeline, license compliance, repo management, identity protection, best practices.
+  - wip-universal-installer ... One-command installer that auto-detects and deploys every interface a repo ships. Smart version checking.
+  - wip-release ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub. Auto-detects dev updates as release notes.
+  - wip-license-hook ... License rug-pull detection. Scans dependencies and forks for license changes. Git hooks block bad merges.
+  - wip-license-guard ... Copyright and license enforcement for your own repos. Interactive setup, auto-fix mode.
+  - wip-repo-permissions-hook ... Repo visibility guard. Blocks repos from going public without a `-private` counterpart.
+  - wip-file-guard ... Blocks destructive edits to protected identity files (CLAUDE.md, SOUL.md, SHARED-CONTEXT.md, MEMORY.md).
+  - wip-repos ... Repo manifest reconciler. Single source of truth for repo organization. Like prettier for folder structure.
+  - deploy-public ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
+  - post-merge-rename ... Post-merge branch renaming. Appends `--merged-YYYY-MM-DD` to preserve history.
+  - Dev Guide ... Best practices for AI-assisted development teams.
+  - LDM Dev Tools.app ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
@@ -53,6 +54,15 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 - **[wip-xai-grok](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
 - **[wip-xai-x](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+
+#### Security
+
+- **[zeroleaks](https://github.com/wipcomputer/zeroleaks)** ... AI Security Scanner. Test your AI systems for prompt injection and extraction vulnerabilities.
+
+#### Research
+
+- **[ANE](https://github.com/wipcomputer/ANE)** ... Training neural networks on Apple Neural Engine via reverse-engineered private APIs.
+- **[wip-manifesto](https://github.com/wipcomputer/wip-manifesto)** ... The WIP.computer manifesto. What agents need besides a model.
 
 #### Sunsetted Software
 
