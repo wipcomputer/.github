@@ -28,14 +28,18 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Utilities
 
-- **[wip-dev-tools](https://github.com/wipcomputer/wip-dev-tools)** ... Dev toolkit for AI-assisted development. Want your AI to dev? Here's the full system.
-  - **wip-release** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
-  - **wip-license-hook** ... License change detection. Flags suspicious license changes in dependencies.
-  - **[wip-file-guard](https://github.com/wipcomputer/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
-  - **[wip-universal-installer](https://github.com/wipcomputer/wip-universal-installer)** ... The Universal Interface specification for agent-native software. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
-  - **deploy-public** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
-  - **Dev Guide** ... Best practices for AI-assisted development teams.
-  - **LDM Dev Tools.app** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access. One app, one permission grant.
+- **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Want your AI to dev? Here's what's working for us at WIP Computer.
+  - **Universal Installer** ... One command installs everything a repo ships. CLI binaries, MCP servers, plugins, hooks.
+  - **Dev Guide** ... Best practices for AI-assisted development teams. Release process, repo structure, branch protection, the `ai/` folder convention.
+  - **LDM Dev Tools.app** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit, visibility audit) with Full Disk Access.
+  - **Release Pipeline** ... Version bump, changelog, SKILL.md sync, npm publish, GitHub release. All in one shot.
+  - **Private-to-Public Sync** ... One script syncs your private working repo to a clean public mirror. Excludes internal `ai/` folders automatically.
+  - **Post-Merge Branch Naming** ... Automatically renames merged branches with `--merged-YYYY-MM-DD`. Preserves history without cluttering your branch list.
+  - **Identity File Protection** ... Blocks destructive edits to protected identity files. CLAUDE.md, SOUL.md, MEMORY.md, SHARED-CONTEXT.md.
+  - **License Guard** ... Ensures your own repos have correct copyright, license type, and LICENSE files. Toolbox-aware. Auto-fix mode.
+  - **License Rug-Pull Detection** ... Scans every dependency for license changes. Blocks merges if a license changed upstream.
+  - **Repo Visibility Guard** ... Blocks repos from going public without a `-private` counterpart.
+  - **Repo Manifest Reconciler** ... Single source of truth for repo organization. Like prettier for folder structure.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
