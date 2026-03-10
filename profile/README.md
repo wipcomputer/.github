@@ -28,18 +28,17 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Utilities
 
-- **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Want your AI to dev? Here's what's working for us at WIP Computer.
-  - **Universal Installer** ... Teaches your AI to take anything you build and make it work across every AI interface. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
-  - **Dev Guide** ... Your team's conventions, baked in. Release process, repo structure, branch protection, the `ai/` folder standard.
-  - **LDM Dev Tools.app** ... Scheduled automation that runs whether anyone remembers or not. Backup, branch protection audit, visibility audit.
-  - **Release Pipeline** ... Release software correctly. Version bump, changelog, npm publish, GitHub release. One command, nothing forgotten.
-  - **Private-to-Public Sync** ... Publish safely. Syncs private to public, excludes internal files, every time.
-  - **Post-Merge Branch Naming** ... Cleans up after itself. Merged branches get renamed with dates automatically.
-  - **Identity File Protection** ... Know what it can never overwrite. CLAUDE.md, SOUL.md, MEMORY.md, SHARED-CONTEXT.md are permanently protected.
-  - **License Guard** ... Enforce licensing on every commit. Copyright, dual-license, CLA. Checked automatically.
-  - **License Rug-Pull Detection** ... Catch license changes in dependencies before they ship.
-  - **Repo Visibility Guard** ... Never accidentally expose a private repo.
-  - **Repo Manifest Reconciler** ... Know where every repo belongs. One source of truth for folder structure.
+- **[wip-dev-tools](https://github.com/wipcomputer/wip-dev-tools)** ... Dev toolkit for AI-assisted development. Want your AI to dev? Here's the full system.
+  - **[wip-universal-installer](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-universal-installer)** ... The Universal Interface specification for agent-native software. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
+  - **[Dev Guide](https://github.com/wipcomputer/wip-dev-tools/blob/main/DEV-GUIDE-GENERAL-PUBLIC.md)** ... Best practices for AI-assisted development teams.
+  - **[LDM Dev Tools.app](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/ldm-jobs)** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access. One app, one permission grant.
+  - **[wip-release](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-release)** ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub.
+  - **[wip-license-hook](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-license-hook)** ... License change detection. Flags suspicious license changes in dependencies.
+  - **[wip-repo-permissions-hook](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-repo-permissions-hook)** ... Repo visibility guard. Blocks repos from going public without a `-private` counterpart.
+  - **[post-merge-rename](https://github.com/wipcomputer/wip-dev-tools/blob/main/scripts/post-merge-rename.sh)** ... Post-merge branch renaming. Appends `--merged-YYYY-MM-DD` to preserve history.
+  - **[wip-file-guard](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-file-guard)** ... Hook that blocks destructive edits to protected identity files. For Claude Code CLI and OpenClaw.
+  - **[deploy-public](https://github.com/wipcomputer/wip-dev-tools/blob/main/scripts/deploy-public.sh)** ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
+  - **[wip-repos](https://github.com/wipcomputer/wip-dev-tools/tree/main/tools/wip-repos)** ... Repo manifest reconciler. Single source of truth for repo organization. Like prettier for folder structure.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
