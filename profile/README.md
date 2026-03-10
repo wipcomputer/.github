@@ -29,12 +29,12 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 #### Utilities
 
 - **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Want your AI to dev? Here's what's working for us at WIP Computer.
-  - **Universal Installer** ... Teach your AI to install anything you ship. One command deploys all six interfaces: CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
+  - **Universal Installer** ... Teaches your AI to take anything you build and make it work across every AI interface. CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
   - **Dev Guide** ... Your team's conventions, baked in. Release process, repo structure, branch protection, the `ai/` folder standard.
   - **LDM Dev Tools.app** ... Scheduled automation that runs whether anyone remembers or not. Backup, branch protection audit, visibility audit.
   - **Release Pipeline** ... Release software correctly. Version bump, changelog, npm publish, GitHub release. One command, nothing forgotten.
   - **Private-to-Public Sync** ... Publish safely. Syncs private to public, excludes internal files, every time.
-  - **Post-Merge Branch Naming** ... Clean up after itself. Merged branches get renamed with dates automatically.
+  - **Post-Merge Branch Naming** ... Cleans up after itself. Merged branches get renamed with dates automatically.
   - **Identity File Protection** ... Know what it can never overwrite. CLAUDE.md, SOUL.md, MEMORY.md, SHARED-CONTEXT.md are permanently protected.
   - **License Guard** ... Enforce licensing on every commit. Copyright, dual-license, CLA. Checked automatically.
   - **License Rug-Pull Detection** ... Catch license changes in dependencies before they ship.
