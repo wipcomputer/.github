@@ -29,7 +29,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 #### Utilities
 
 - **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Want your AI to dev? Here's what's working for us at WIP Computer.
-  - **Universal Installer** ... Build an installer for anything you ship. One command deploys all six interfaces: CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
+  - **Universal Installer** ... Teach your AI to install anything you ship. One command deploys all six interfaces: CLI, MCP Server, OpenClaw Plugin, Skill, Claude Code Hook.
   - **Dev Guide** ... Best practices for AI-assisted development teams. Release process, repo structure, branch protection, the `ai/` folder convention.
   - **LDM Dev Tools.app** ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit, visibility audit) with Full Disk Access.
   - **Release Pipeline** ... Version bump, changelog, SKILL.md sync, npm publish, GitHub release. All in one shot.
