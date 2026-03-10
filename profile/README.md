@@ -29,17 +29,17 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 #### Utilities
 
 - **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Release pipeline, license compliance, repo management, identity protection, best practices.
-  - wip-universal-installer ... One-command installer that auto-detects and deploys every interface a repo ships. Smart version checking.
-  - wip-release ... One-command release pipeline. Bumps version, updates changelog + SKILL.md, publishes to npm + GitHub. Auto-detects dev updates as release notes.
-  - wip-license-hook ... License rug-pull detection. Scans dependencies and forks for license changes. Git hooks block bad merges.
-  - wip-license-guard ... Copyright and license enforcement for your own repos. Interactive setup, auto-fix mode.
-  - wip-repo-permissions-hook ... Repo visibility guard. Blocks repos from going public without a `-private` counterpart.
-  - wip-file-guard ... Blocks destructive edits to protected identity files (CLAUDE.md, SOUL.md, SHARED-CONTEXT.md, MEMORY.md).
-  - wip-repos ... Repo manifest reconciler. Single source of truth for repo organization. Like prettier for folder structure.
-  - deploy-public ... Private-to-public repo sync. Excludes `ai/` folder, creates PR, merges.
-  - post-merge-rename ... Post-merge branch renaming. Appends `--merged-YYYY-MM-DD` to preserve history.
-  - Dev Guide ... Best practices for AI-assisted development teams.
-  - LDM Dev Tools.app ... macOS automation wrapper. Scheduled jobs (backup, branch protection audit) with Full Disk Access.
+  - Universal Installer ... Teaches your AI to take anything you build and make it work across every AI interface. One command, all six interfaces. Detects what a repo supports and deploys it all.
+  - Dev Guide ... Your team's conventions, baked in. Release process, repo structure, branch protection, the `ai/` folder standard.
+  - LDM Dev Tools.app ... Scheduled automation that runs whether anyone remembers or not. Backup, branch protection audit, visibility audit. macOS .app bundle with Full Disk Access.
+  - Release Pipeline ... Release software correctly. Version bump, changelog, npm publish, GitHub release. One command, nothing forgotten. SKILL.md sync, auto-detects dev updates as release notes.
+  - Private-to-Public Sync ... Publish safely. Syncs private to public, excludes internal `ai/` files, every time. Creates a PR, merges it, cleans up branches.
+  - Post-Merge Branch Naming ... Cleans up after itself. Merged branches get renamed with `--merged-YYYY-MM-DD` automatically.
+  - Identity File Protection ... Know what it can never overwrite. CLAUDE.md, SOUL.md, MEMORY.md, SHARED-CONTEXT.md are permanently protected.
+  - License Guard ... Enforce licensing on every commit. Copyright, dual-license, CLA. Checked automatically. Interactive first-run setup, auto-fix mode.
+  - License Rug-Pull Detection ... Catch license changes in dependencies before they ship. Blocks merges if a license changed upstream.
+  - Repo Visibility Guard ... Never accidentally expose a private repo. Blocks repos from going public without a `-private` counterpart.
+  - Repo Manifest Reconciler ... Know where every repo belongs. One source of truth for folder structure. Like prettier for folder structure.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
@@ -54,15 +54,6 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 - **[wip-xai-grok](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
 - **[wip-xai-x](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
-
-#### Security
-
-- **[zeroleaks](https://github.com/wipcomputer/zeroleaks)** ... AI Security Scanner. Test your AI systems for prompt injection and extraction vulnerabilities.
-
-#### Research
-
-- **[ANE](https://github.com/wipcomputer/ANE)** ... Training neural networks on Apple Neural Engine via reverse-engineered private APIs.
-- **[wip-manifesto](https://github.com/wipcomputer/wip-manifesto)** ... The WIP.computer manifesto. What agents need besides a model.
 
 #### Sunsetted Software
 
