@@ -40,6 +40,7 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
   - License Rug-Pull Detection ... Catch license changes in dependencies before they ship. Blocks merges if a license changed upstream.
   - Repo Visibility Guard ... Never accidentally expose a private repo. Blocks repos from going public without a `-private` counterpart.
   - Repo Manifest Reconciler ... Know where every repo belongs. One source of truth for folder structure. Like prettier for folder structure.
+  - README Formatter ... Generate or validate READMEs that follow the WIP Computer standard. Badges, title, tagline, "Teach Your AI" block, features, interface coverage table, license.
 - **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
 - **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
 - **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
