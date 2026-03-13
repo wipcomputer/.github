@@ -1,4 +1,4 @@
-# WORK IN PROGRESS COMPUTER
+# WIP Computer, Inc.
 
 **Learning Dreaming Machines.**
 
