@@ -1,4 +1,4 @@
-# WIP.computer
+# wip.computer
 
 **Learning Dreaming Machines.**
 
