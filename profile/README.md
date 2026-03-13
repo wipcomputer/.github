@@ -1,4 +1,4 @@
-# wip.computer
+# WORK IN PROGRESS COMPUTER
 
 **Learning Dreaming Machines.**
 
