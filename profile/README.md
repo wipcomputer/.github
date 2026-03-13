@@ -4,7 +4,7 @@
 
 We build AI agent infrastructure. Identity, memory, sovereignty. Tools that protect the people inside them.
 
-**[wip.computer](https://wip.computer)**
+**[https://wip.computer](https://wip.computer)**
 
 ---
 
