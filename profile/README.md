@@ -12,24 +12,14 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### Components
 
-- **[wip-ldm-os](https://github.com/wipcomputer/wip-ldm-os)** ... Learning Dreaming Machines Operating System. Shared infrastructure for AI agent identity, memory, extensions, and boot sequence.
-- **[memory-crystal](https://github.com/wipcomputer/memory-crystal)** ... Collective AI memory. Sovereign. Local-first. Searchable. Encrypted worldwide sync.
-- **[dream-weaver-protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
-- **[wip-bridge](https://github.com/wipcomputer/wip-bridge)** ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
-
-#### Components (Project Contributor)
-
-- **[openclaw](https://github.com/wipcomputer/openclaw)** ... Open-source agent runtime. The existence proof for LDM OS.
-- **[xdevplatform](https://github.com/xdevplatform)** ... X Developer Platform. Official X API tools including [xurl](https://github.com/xdevplatform/xurl) (OAuth-enabled CLI for the X API) and [xdk](https://github.com/xdevplatform/xdk) (TypeScript SDK).
-
-#### Identity
-
-- **wip-mirror-test** (closed beta) ... Identity preservation test across model swaps. Is the agent the same after the swap?
-- **wip-weekly-tuning** (closed beta) ... Repeatable calibration process. Catch drift, tune performance, evolve capabilities.
+- **[LDM OS](https://github.com/wipcomputer/wip-ldm-os)** ... Learning Dreaming Machines Operating System. Shared infrastructure for AI agent identity, memory, extensions, and boot sequence.
+  - [Bridge](https://github.com/wipcomputer/wip-ldm-os/blob/main/docs/bridge/README.md) ... Cross-platform agent bridge. Enables Claude Code CLI to talk to OpenClaw CLI without a human in the middle.
+- **[Memory Crystal](https://github.com/wipcomputer/memory-crystal)** ... Collective AI memory. Sovereign. Local-first. Searchable. Encrypted worldwide sync.
+- **[Dream Weaver Protocol](https://github.com/wipcomputer/dream-weaver-protocol)** ... Memory consolidation protocol for AI agents with bounded context windows. A practical guide for remembering memories.
 
 #### Utilities
 
-- **[wip-ai-devops-toolbox](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... AI DevOps toolkit for AI-assisted development. Release pipeline, license compliance, repo management, identity protection, best practices.
+- **[CODE (WIP)](https://github.com/wipcomputer/wip-ai-devops-toolbox)** ... An AI DevOps toolkit for AI-assisted development. Release pipeline, license compliance, repo management, identity protection, best practices.
   - Universal Installer ... Teaches your AI to take anything you build and make it work across every AI interface. One command, all six interfaces. Detects what a repo supports and deploys it all.
   - Dev Guide ... Your team's conventions, baked in. Release process, repo structure, branch protection, the `ai/` folder standard.
   - LDM Dev Tools.app ... Scheduled automation that runs whether anyone remembers or not. Backup, branch protection audit, visibility audit. macOS .app bundle with Full Disk Access.
@@ -43,21 +33,33 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
   - Repo Manifest Reconciler ... Know where every repo belongs. One source of truth for folder structure. Like prettier for folder structure.
   - Repo Init ... Scaffold the standard `ai/` directory in any repo. Plans, notes, ideas, dev updates, todos. One command. Nothing is deleted.
   - README Formatter ... Generate or validate READMEs that follow the WIP Computer standard. Badges, title, tagline, "Teach Your AI" block, features, interface coverage table, license.
-- **[wip-1password](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
-- **[wip-healthcheck](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
-- **wip-private-mode** (closed beta) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
-- **wip-root-key** (closed beta) ... 1Password-gated privileged operations. The agent proves authority before acting.
+- **[1Password (WIP)](https://github.com/wipcomputer/wip-1password)** ... 1Password secrets for AI agents.
+- **[Healthcheck (WIP)](https://github.com/wipcomputer/wip-healthcheck)** ... External health watchdog + backup system. Monitors gateway, tokens, memory. Auto-remediates and escalates.
+- **Private Mode** (unreleased) ... Privacy controls for AI agents. Pause memory capture, scan storage, wipe history.
+- **Root Key** (unreleased) ... 1Password-gated privileged operations. The agent proves authority before acting.
+- **Mirror Test** (unreleased) ... Identity preservation test across model swaps. Is the agent the same after the swap?
+- **Weekly Tuning** (unreleased) ... Repeatable calibration process. Catch drift, tune performance, evolve capabilities.
 
 #### Apps
 
-- **[wip-markdown-viewer](https://github.com/wipcomputer/wip-markdown-viewer)** ... Live markdown viewer for AI pair-editing. Updates render instantly in any browser.
+- **[Markdown Viewer (WIP)](https://github.com/wipcomputer/wip-markdown-viewer)** ... Live markdown viewer for AI pair-editing. Updates render instantly in any browser.
 - **[CLVR](https://github.com/wipcomputer/CLVR)** ... macOS utility that auto-timestamps duplicated file names.
 
 #### APIs
 
-- **[wip-xai-grok](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
-- **[wip-xai-x](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+- **[Grok (WIP)](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
+- **[X Platform (WIP)](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+
+#### Components (Project Contributor)
+
+- **[OpenClaw](https://github.com/wipcomputer/openclaw)** ... Open-source agent runtime. The existence proof for LDM OS.
+- **[xdevplatform](https://github.com/xdevplatform)** ... X Developer Platform. Official X API tools including [xurl](https://github.com/xdevplatform/xurl) (OAuth-enabled CLI for the X API) and [xdk](https://github.com/xdevplatform/xdk) (TypeScript SDK).
 
 #### Sunsetted Software
 
-- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... 2025 try at solving AI context, memory (recall), and skills.
+- **[CONSTRUCT](https://github.com/parkertoddbrooks/CONSTRUCT)** ... 2024-2025 try at solving AI context, memory (recall), and skills.
+- **[Universal Installer](https://github.com/wipcomputer/wip-universal-installer-deprecated)** ... Folded into CODE (WIP).
+- **[File Guard](https://github.com/wipcomputer/wip-file-guard-deprecated)** ... Folded into CODE (WIP).
+- **License Hook** ... Folded into CODE (WIP).
+- **Dev Guide** ... Folded into CODE (WIP).
+- **[Bridge](https://github.com/wipcomputer/wip-bridge-deprecated)** ... Folded into LDM OS.
