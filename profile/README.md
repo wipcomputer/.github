@@ -47,12 +47,11 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 
 #### APIs
 
-- **[Grok (WIP)](https://github.com/wipcomputer/wip-xai-grok)** ... xAI Grok API. Search the web, search X, generate images, generate video.
-- **[X Platform (WIP)](https://github.com/wipcomputer/wip-xai-x)** ... X Platform API. Read posts, search tweets, post, upload media.
+- **[X + xAI/Grok (WIP)](https://github.com/wipcomputer/wip-x-xai-grok)** ... X Platform + xAI Grok API. Search the web, search X, generate images, generate video, read posts, search tweets, post, upload media.
 
 #### Components (Project Contributor)
 
-- **[OpenClaw](https://github.com/wipcomputer/openclaw)** ... Open-source agent runtime. The existence proof for LDM OS.
+- **[OpenClaw](https://github.com/wipcomputer/openclaw)** ... Open-source agent runtime. The existence proof for LDM OS. Contributed `before_message_write` plugin hook ([PR #18197](https://github.com/openclaw/openclaw/pull/18197), merged). Symlink plugin discovery fix ([PR #45744](https://github.com/openclaw/openclaw/pull/45744), open).
 - **[imsg](https://github.com/steipete/imsg)** ... iMessage CLI. Contributed URL balloon dedup fix ([PR #64](https://github.com/steipete/imsg/pull/64), merged).
 - **[xdevplatform](https://github.com/xdevplatform)** ... X Developer Platform. Official X API tools including [xurl](https://github.com/xdevplatform/xurl) (OAuth-enabled CLI for the X API) and [xdk](https://github.com/xdevplatform/xdk) (TypeScript SDK).
 
@@ -64,3 +63,5 @@ We build AI agent infrastructure. Identity, memory, sovereignty. Tools that prot
 - **License Hook** ... Folded into CODE (WIP).
 - **Dev Guide** ... Folded into CODE (WIP).
 - **[Bridge](https://github.com/wipcomputer/wip-bridge-deprecated)** ... Folded into LDM OS.
+- **[Grok (WIP)](https://github.com/wipcomputer/wip-xai-grok-deprecated)** ... Folded into X + xAI/Grok (WIP).
+- **[X Platform (WIP)](https://github.com/wipcomputer/wip-xai-x-deprecated)** ... Folded into X + xAI/Grok (WIP).
